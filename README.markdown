@@ -3,6 +3,7 @@ A bytecode interpreter for a bidirectional, infinite-length-tape Turing machine.
 My definition of the Turing machine is based on Martin Davis, _Computability and Unsolvability_, Dover, 1982 (originally McGraw Hill, 1958), page 5.
 
 Define a Turing machine in an input file as follows:
+
 -   Line 1: two integers, separated by space: initial length of tape, index of tape's start position (0-based)
 -   Line 2: a string: initial contents of tape.
 -   Line 3: two characters, separated by space: initial state of the machine, "blank" symbol (used to fill new squares on the tape)
